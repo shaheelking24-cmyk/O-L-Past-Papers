@@ -12,6 +12,37 @@
         color: #FFFFFF;
         text-decoration: none;
     }
+
+    @media (max-width: 768px) {
+
+    h1 {
+        font-size: 45px !important;
+        margin: 5px !important;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    /* 3 boxes -> 1 box per row */
+    body > div {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    body > div > div {
+        width: 85% !important;
+        margin-top: 25px !important;
+    }
+
+    /* Images */
+    body > div > div img {
+        width: 100% !important;
+        height: auto !important;
+        display: block;
+    }
+}
+
 </style>
 
 <body>
